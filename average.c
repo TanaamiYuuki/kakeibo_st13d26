@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include "average.h"
 
-
-
-
 int average(int payments[])
 {
 	int i, x = 0;
@@ -11,5 +8,5 @@ int average(int payments[])
 		x += payments[i];
 	}
 	x = x / 5;
-	return x;
+	return (x);
 }
